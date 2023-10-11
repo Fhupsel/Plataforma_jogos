@@ -1,0 +1,82 @@
+ul{
+  display: flex;
+  gap: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+a:not(.row2 a){
+  text-decoration: none;
+  color: grey;
+}
+
+.row1{
+  background-color:#212429;
+  align-items: center;
+  padding: 20px 80px;
+
+}
+
+.row1 h2, p{
+  color: white;
+  text-align: center;
+}
+
+.row2{
+  width: 1200px;
+  margin: 0 auto;
+  gap: 10px;
+  padding: 40px;
+}
+
+.formulario{
+  padding: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.formulario p{
+  color: black;
+  text-align: left;
+}
+
+.botao{
+  background: green;
+  font-weight: bold;
+}
+
+.row2 p, h3{
+  color: black;
+  text-align: center;
+}
+
+.row2 a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.row3{
+  padding: 40px 0;
+}
+
+.txt p, h3{
+  color: black;
+  text-align: center;
+  margin: 5px;
+}
+
+.img1{
+  background-size: cover !important;
+  background-image: url("https://th.bing.com/th/id/R.37f9296864db9fa0e92069984274f258?rik=oooa8QYbVvSKgA&pid=ImgRaw&r=0");
+}
+
+.img2{
+  background-size: cover !important;
+  background-image: url("https://th.bing.com/th/id/R.57d8b387813ef72ff2418544a6f01574?rik=BnwW1UQQ8tpqZQ&pid=ImgRaw&r=0");
+}
+
+
